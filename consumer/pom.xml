@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.suvam</groupId>
-	<artifactId>producer</artifactId>
+	<artifactId>consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>producer</name>
-	<description>Spring Boot project for producer</description>
+	<name>consumer</name>
+	<description>Spring Boot for consumer</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -31,8 +31,6 @@
         <spring-cloud.version>2025.0.0</spring-cloud.version>
 	</properties>
 	<dependencies>
-
-        <!-- spring cloud stream dependencies [kafka related dependencies not needed]-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -54,13 +52,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -72,8 +69,7 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
