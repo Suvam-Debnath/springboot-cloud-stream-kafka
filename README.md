@@ -96,3 +96,14 @@ microservices ⚡.
   <li>⚡ Real-time data streaming</li>
 </ul>
 
+<hr/>
+
+<h2>📈 🚀 Output demo</h2>
+<ul>
+  <li>Producer</li>
+  <img width="1920" height="1020" alt="kafka stream producer " src="https://github.com/user-attachments/assets/660170fe-ff25-4bed-9dd0-d3fd041d9230" />
+
+  <li>Consumer</li>
+  <img width="1920" height="1020" alt="kafka stream consumer" src="https://github.com/user-attachments/assets/fdf0f027-bf5b-4332-a5d5-03179c79d7c2" />
+
+</ul>
